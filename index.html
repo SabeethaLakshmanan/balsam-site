@@ -4,26 +4,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Balsam Creative Technology: one-to-one mentorship for students, professionals and business owners, including a practical Business Growth Mentorship programme.">
-<meta name="theme-color" content="#0F4C3A">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#16213E">
 <meta property="og:title" content="Balsam Creative Technology | Business Growth Mentorship">
 <meta property="og:description" content="Your Business Growth &amp; AI Mentorship Partner.">
 <meta property="og:type" content="website">
+<!-- IMPORTANT: when you go live, change this to a full URL, e.g. https://yourdomain.com/images/og.jpg (1200x630) -->
+<meta property="og:image" content="images/logo.png">
 <title>Balsam Creative Technology | Business Growth Mentorship</title>
 <link rel="icon" href="images/p1.png">
+<link rel="apple-touch-icon" href="images/p1.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Balsam Creative Technology",
+  "description": "One-to-one mentorship for students, professionals and business owners, including Business Growth Mentorship.",
+  "telephone": "+91 97901 28152"
+}
+</script>
 <script>document.documentElement.classList.add("paged")</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a href="#home" class="brand" aria-label="Balsam Creative Technology home"><img src="images/logo.png" alt="Balsam Creative Technology: Learn, Create, Build, Grow"></a>
-    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    <nav id="menu">
+    <button class="burger" id="burger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav id="menu" aria-label="Main">
       <a href="#home" class="on">Home</a>
-      <a href="#services">Career Mentoring</a>
+      <a href="#mentors">Find a Mentor</a>
+      <a href="#services">Mentorship Programmes</a>
       <a href="#business">Business Growth</a>
       <a href="#process">Process</a>
       <a href="#about">About</a>
@@ -33,8 +48,9 @@
   </div>
 </header>
 
-<main>
-<!-- HOME (company landing page) -->
+<main id="main" tabindex="-1">
+
+<!-- HOME -->
 <div id="home">
   <section class="hero">
     <div class="wrap grid2">
@@ -42,16 +58,16 @@
         <div class="eyebrow">Balsam Creative Technology</div>
         <h1>Mentorship that turns goals into <em>action.</em></h1>
         <p class="lead">One-to-one mentorship for students, professionals and business owners.</p>
-        <div class="actions"><a class="btn" href="#contact">Book a call</a><a class="btn ghost" href="#business">Business growth programme</a></div>
+        <div class="actions"><a class="btn" href="#contact">Book an intro call</a><a class="btn ghost" href="#business">Business growth programme</a></div>
         <div class="trust"><span>Personal attention</span><span>Practical action plans</span><span>Simple WhatsApp start</span></div>
       </div>
       <div class="paths">
-        <a class="path dark rv" href="#services"><span class="pi"><img src="images/individuals.png" alt=""></span><div><small>For individuals</small><h3>Career &amp; Skills Mentoring</h3><p>Students, graduates and professionals.</p></div><i>→</i></a>
-        <a class="path dark rv" href="#business"><span class="pi"><img src="images/p2.png" alt=""></span><div><small>For business owners</small><h3>Business Growth Mentorship</h3><p>Startups, small businesses and entrepreneurs.</p></div><i>→</i></a>
+        <a class="path rv" href="#services"><span class="pi"><img src="images/individuals.png" alt="" width="84" height="84"></span><div><small>For individuals</small><h3>Career &amp; Skills Mentoring</h3><p>Students, graduates and professionals.</p></div><i aria-hidden="true">→</i></a>
+        <a class="path rv" href="#business"><span class="pi"><img src="images/p2.png" alt="" width="84" height="84"></span><div><small>For business owners</small><h3>Business Growth Mentorship</h3><p>Startups, small businesses and entrepreneurs.</p></div><i aria-hidden="true">→</i></a>
       </div>
     </div>
   </section>
-  <div class="strip"><div class="wrap"><span>Clear direction</span><span>Honest feedback</span><span>Action plans</span><span>Regular follow-up</span></div></div>
+  <div class="strip"><div class="wrap"><span>One-to-one only</span><span>7 skill tracks</span><span>Students to business owners</span><span>Regular follow-up</span></div></div>
 
   <section>
     <div class="wrap">
@@ -66,36 +82,35 @@
     </div>
   </section>
 
-
   <section class="alt" id="one-to-one">
     <div class="wrap">
       <div class="eyebrow">One-to-one mentorship</div>
       <h2>Who we mentor, and <em>how it works for you.</em></h2>
       <p class="lead">One-to-one means you work directly with a mentor, not in a crowded batch. Every session starts from your goal, looks at your real work, and ends with tasks and deadlines. The next session begins by reviewing what you did.</p>
-      <div class="grid2e" style="margin-top:28px">
+      <div class="grid2e mt28">
         <div class="box rv"><h3>Students</h3>
           <p>For school and college students who are unsure about the right course, career or skills to build.</p>
           <ul class="list"><li>Understand your strengths, interests and options</li><li>Choose a course or career path with reasons</li><li>Build a study and skill plan, step by step</li><li>Start small projects that show your ability</li></ul>
-          <p class="best1" style="margin-top:14px"><b>You leave with:</b> a shortlist of realistic paths and a 30-60-90 day action plan.</p></div>
+          <p class="best1 mt14"><b>You leave with:</b> a shortlist of realistic paths and a 30-60-90 day action plan.</p></div>
         <div class="box rv"><h3>Graduates &amp; job seekers</h3>
-          <p>For fresh graduates and anyone preparing to get the first job or a better one.</p>
+          <p>For fresh graduates and anyone preparing to get a first job or a better one.</p>
           <ul class="list"><li>Resume and profile review with specific fixes</li><li>Mock interviews with honest feedback</li><li>Role-wise preparation and application plan</li><li>Communication and confidence practice</li></ul>
-          <p class="best1" style="margin-top:14px"><b>You leave with:</b> a stronger resume, practised answers and a weekly job-search routine.</p></div>
+          <p class="best1 mt14"><b>You leave with:</b> a stronger resume, practised answers and a weekly job-search routine.</p></div>
         <div class="box rv"><h3>Working professionals</h3>
           <p>For people planning a career change, a promotion or a new skill set.</p>
           <ul class="list"><li>Skill gap check against your target role</li><li>A learning plan that fits your work schedule</li><li>Guidance on switching fields or growing in your role</li><li>Feedback on your portfolio and real work</li></ul>
-          <p class="best1" style="margin-top:14px"><b>You leave with:</b> a clear target role and a plan to reach it.</p></div>
+          <p class="best1 mt14"><b>You leave with:</b> a clear target role and a plan to reach it.</p></div>
         <div class="box rv"><h3>Business owners</h3>
           <p>For startups, small businesses and entrepreneurs who want a clear plan to grow.</p>
           <ul class="list"><li>Business review and gap analysis</li><li>Marketing, branding and customer guidance</li><li>AI tools and workflow automation for your business</li><li>Monthly review and action tracking</li></ul>
-          <p class="best1" style="margin-top:14px"><b>You leave with:</b> a growth roadmap and regular accountability.</p></div>
+          <p class="best1 mt14"><b>You leave with:</b> a growth roadmap and regular accountability.</p></div>
       </div>
-      <div class="box rv" style="margin-top:24px"><h3>How a session works</h3>
+      <div class="box rv mt24"><h3>How a session works</h3>
         <ul class="list"><li><b>Before:</b> you share your goal and any work to review.</li><li><b>During:</b> we discuss where you are, what is blocking you and what to do next.</li><li><b>After:</b> you get written tasks with deadlines, and we check them at the next session.</li></ul></div>
     </div>
   </section>
 
-  <section class="alt">
+  <section>
     <div class="wrap spot">
       <div>
         <div class="eyebrow">Business Growth Mentorship</div>
@@ -104,22 +119,44 @@
         <div class="actions"><a class="btn" href="#business">Explore the programme</a></div>
       </div>
       <div class="mini4 rv">
-        <div><img src="images/i1.png" alt=""><b>Business Growth Strategy</b></div>
-        <div><img src="images/i2.png" alt=""><b>Marketing &amp; Branding Guidance</b></div>
-        <div><img src="images/i3.png" alt=""><b>AI &amp; Automation Guidance</b></div>
-        <div><img src="images/i4.png" alt=""><b>Business Review &amp; Accountability</b></div>
+        <div><img src="images/i1.png" alt="" width="64" height="64"><b>Business Growth Strategy</b></div>
+        <div><img src="images/i2.png" alt="" width="64" height="64"><b>Marketing &amp; Branding Guidance</b></div>
+        <div><img src="images/i3.png" alt="" width="64" height="64"><b>AI &amp; Automation Guidance</b></div>
+        <div><img src="images/i4.png" alt="" width="64" height="64"><b>Business Review &amp; Accountability</b></div>
       </div>
     </div>
   </section>
 
   <section class="alt">
-    <div class="wrap grid2">
-      <div><div class="eyebrow">The difference</div><h2>Not just tips. <em>A plan you can follow.</em></h2><p class="lead">We turn your goal into specific tasks with deadlines, then review what you did.</p></div>
-      <div class="card-demo rv"><small>Vague vs. real advice</small>
-        <div class="bad">“Work on your skills and stay confident.”</div>
-        <div class="good"><b>Real advice</b>Pick one target role. Rewrite your top 3 resume points with results. Do 2 mock interviews this week.</div>
-        <div class="bad">“Improve your marketing.”</div>
-        <div class="good"><b>Real advice</b>Choose one customer group. Fix your online profile and offer. Track enquiries for 30 days.</div></div>
+    <div class="wrap center">
+      <div class="eyebrow eyebrow-c">Skill mentorship</div>
+      <h2>Skills we <em>mentor.</em></h2>
+      <p class="lead mauto18">Pick a skill to see what you will work on and enquire in one tap.</p>
+      <div class="skillrow">
+        <a class="chip-btn" href="#mentors" data-skill="Digital Marketing"><img class="chip-ph" src="images/skills/digital-marketing.jpg" alt="" width="36" height="36" loading="lazy">Digital Marketing</a>
+        <a class="chip-btn" href="#mentors" data-skill="Graphic Designing"><img class="chip-ph" src="images/skills/graphic-designing.jpg" alt="" width="36" height="36" loading="lazy">Graphic Designing</a>
+        <a class="chip-btn" href="#mentors" data-skill="SAP"><img class="chip-ph" src="images/skills/sap.jpg" alt="" width="36" height="36" loading="lazy">SAP</a>
+        <a class="chip-btn" href="#mentors" data-skill="AutoCAD"><img class="chip-ph" src="images/skills/autocad.jpg" alt="" width="36" height="36" loading="lazy">AutoCAD</a>
+        <a class="chip-btn" href="#mentors" data-skill="Data Analysis"><img class="chip-ph" src="images/skills/data-analysis.jpg" alt="" width="36" height="36" loading="lazy">Data Analysis</a>
+        <a class="chip-btn" href="#mentors" data-skill="Artificial Intelligence"><img class="chip-ph" src="images/skills/ai.jpg" alt="" width="36" height="36" loading="lazy">Artificial Intelligence</a>
+        <a class="chip-btn" href="#mentors" data-skill="Animation"><img class="chip-ph" src="images/skills/animation.jpg" alt="" width="36" height="36" loading="lazy">Animation</a>
+      </div>
+      <div class="actions center-actions"><a class="btn" href="#mentors">Find your mentor track</a></div>
+    </div>
+  </section>
+
+  <!-- SUCCESS STORIES
+       Hidden until you add REAL stories. To show it: fill in the 3 quotes below with real people
+       (with their permission) and delete the word  hidden  from the <section> tag. -->
+  <section id="stories" hidden>
+    <div class="wrap">
+      <div class="eyebrow">Success stories</div>
+      <h2>What our mentees <em>say.</em></h2>
+      <div class="values">
+        <figure class="quote rv"><blockquote>Write the real quote here.</blockquote><figcaption><b>Name</b><span>Graduate → Role / outcome</span></figcaption></figure>
+        <figure class="quote rv"><blockquote>Write the real quote here.</blockquote><figcaption><b>Name</b><span>Business type → Result</span></figcaption></figure>
+        <figure class="quote rv"><blockquote>Write the real quote here.</blockquote><figcaption><b>Name</b><span>Student → Outcome</span></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -130,92 +167,167 @@
 <div id="services">
   <div class="phead"><div class="wrap"><div class="eyebrow">Career mentoring</div><h1>Three areas, <em>concrete outcomes.</em></h1><p class="lead">For students, graduates and professionals.</p></div></div>
   <div class="wrap">
-    <div class="rowx rv"><div class="ph" data-g="◎"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Career mentoring conversation" loading="lazy"></div>
+    <div class="rowx rv"><div class="ph" data-g="◎"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Mentor guiding a student on career choices" loading="lazy"></div>
       <div><div class="kick">01 · Direction</div><h2>Career clarity</h2><p class="lead">Find the path that fits your strengths and the market.</p>
       <ul><li>Strengths and interests review</li><li>Shortlist of realistic roles</li><li>30-60-90 day action roadmap</li></ul><p class="best1"><b>Best for:</b> Students unsure which career or course to choose.</p></div></div>
-    <div class="rowx rev rv"><div class="ph" data-g="↗"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Team learning together" loading="lazy"></div>
+    <div class="rowx rev rv"><div class="ph" data-g="↗"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Mentor reviewing a learner's work" loading="lazy"></div>
       <div><div class="kick">02 · Growth</div><h2>Skill development</h2><p class="lead">Learn the right things in the right order, with feedback on real work.</p>
       <ul><li>Skill gap check for your goal</li><li>Weekly learning plan</li><li>Project and portfolio feedback</li></ul><p class="best1"><b>Best for:</b> Anyone who knows the goal but not the route to it.</p></div></div>
-    <div class="rowx rv"><div class="ph" data-g="✦"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Professional workshop" loading="lazy"></div>
+    <div class="rowx rv"><div class="ph" data-g="✦"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Mock interview practice" loading="lazy"></div>
       <div><div class="kick">03 · Confidence</div><h2>Interview &amp; confidence</h2><p class="lead">Present yourself clearly and practise real questions.</p>
       <ul><li>Resume and profile review</li><li>Mock interviews with feedback</li><li>Communication practice</li></ul><p class="best1"><b>Best for:</b> Anyone preparing for interviews or wanting to communicate better.</p></div></div>
   </div>
   <section class="band"><div class="wrap"><h2>Not sure where to <em>start?</em></h2><p class="lead">Message us and we will help you pick.</p><a class="btn" href="#contact">Let’s talk</a></div></section>
 </div>
 
-<!-- BUSINESS GROWTH (follows the Balsam poster) -->
+<!-- BUSINESS GROWTH -->
 <div id="business">
   <section class="hero pz">
     <div class="wrap bz-grid">
       <div>
         <h1>Business Growth <em>Mentorship</em></h1>
-        <p class="lead">A Practical Mentorship Program to Help Small Businesses Grow, Operate Better and Leverage AI for Long-Term Success.</p>
+        <p class="lead">A practical mentorship programme to help small businesses grow, operate better and use AI for long-term success.</p>
         <div class="actions"><a class="btn" href="#contact">Discuss your business</a><a class="btn ghost" href="#pkgs">View packages</a></div>
+        <p class="hero-link"><a class="textlink" href="#planner">Or build your 90-day growth plan →</a></p>
       </div>
-      <div class="bz-art"><img src="images/hero.jpg" alt="Wooden blocks with idea, process, AI and target icons rising towards a growth arrow"></div>
+      <div class="bz-art"><img src="images/hero.jpg" alt="Wooden blocks with idea, process, AI and target icons rising towards a growth arrow" width="1600" height="1200"></div>
     </div>
   </section>
 
   <div class="wrap">
     <div class="bz-focus">
-      <div class="fx"><img src="images/i1.png" alt=""><b>Business<br>Growth Strategy</b></div>
-      <div class="fx"><img src="images/i2.png" alt=""><b>Marketing &amp;<br>Branding Guidance</b></div>
-      <div class="fx"><img src="images/i3.png" alt=""><b>AI &amp; Automation<br>Guidance</b></div>
-      <div class="fx"><img src="images/i4.png" alt=""><b>Business Review<br>&amp; Accountability</b></div>
+      <div class="fx"><img src="images/i1.png" alt="" width="68" height="68"><b>Business<br>Growth Strategy</b></div>
+      <div class="fx"><img src="images/i2.png" alt="" width="68" height="68"><b>Marketing &amp;<br>Branding Guidance</b></div>
+      <div class="fx"><img src="images/i3.png" alt="" width="68" height="68"><b>AI &amp; Automation<br>Guidance</b></div>
+      <div class="fx"><img src="images/i4.png" alt="" width="68" height="68"><b>Business Review<br>&amp; Accountability</b></div>
     </div>
   </div>
 
   <section id="pkgs">
     <div class="wrap">
       <div class="ptitle"><span></span><h2>Our Mentorship Packages</h2><span></span></div>
-      <div class="pkgs">
-        <article class="pkg rv"><img class="pico" src="images/p1.png" alt="">
+      <div class="seg-wrap"><div class="seg" role="group" aria-label="Package view">
+        <button type="button" data-view="cards" aria-pressed="true">Cards</button>
+        <button type="button" data-view="compare" aria-pressed="false">Compare</button>
+      </div></div>
+      <!-- PRICES: replace "Custom pricing" with your real price, e.g.  From ₹ 4,999<span>/ Month</span>
+           The Compare table copies these prices automatically. -->
+      <div class="pkgs" id="pkg-cards">
+        <article class="pkg rv" data-pkg-card="Starter"><img class="pico" src="images/p1.png" alt="" width="96" height="96">
           <h3>Starter</h3><p class="sub">Business Clarity</p>
-          <div class="price">₹ xxxx<span>/ Month</span></div>
+          <div class="price">Custom pricing</div>
           <div class="freq"><b>1 review meeting</b><span>/ Month</span></div>
           <ul class="list"><li>Initial business review and gap analysis</li><li>Basic marketing and branding guidance</li><li>Monthly action plan</li></ul>
           <div class="best"><b>Best for</b>New or small businesses that want a clear first step.</div>
-          <a class="btn ghost" href="#contact">Discuss this package</a></article>
-        <article class="pkg feat rv"><span class="ribbon">★ Recommended</span><img class="pico" src="images/p2.png" alt="">
+          <button type="button" class="btn ghost" data-pkg="Starter" data-label="Choose Starter">Choose Starter</button></article>
+        <article class="pkg feat rv" data-pkg-card="Growth"><span class="ribbon">★ Recommended</span><img class="pico" src="images/p2.png" alt="" width="96" height="96">
           <h3>Growth</h3><p class="sub">Business Accelerator</p>
-          <div class="price">₹ yyyy<span>/ Month</span></div>
+          <div class="price">Custom pricing</div>
           <div class="freq"><b>2 sessions</b><span>/ Month</span></div>
-          <div class="inner"><ul class="list"><li>Detailed business review and gap analysis</li><li>Customized 90-day growth roadmap</li><li>Marketing and customer acquisition strategy</li><li>Branding and digital presence guidance</li><li>AI tools and workflow automation guidance</li><li>Monthly performance review and action tracking</li></ul></div>
+          <div class="inner"><ul class="list"><li>Detailed business review and gap analysis</li><li>Customised 90-day growth roadmap</li><li>Marketing and customer acquisition strategy</li><li>Branding and digital presence guidance</li><li>AI tools and workflow automation guidance</li><li>Monthly performance review and action tracking</li></ul></div>
           <div class="best"><b>Best for</b>Businesses that want a plan, regular support and accountability.</div>
-          <a class="btn" href="#contact">Discuss this package</a></article>
-        <article class="pkg rv"><img class="pico" src="images/p3.png" alt="">
+          <button type="button" class="btn" data-pkg="Growth" data-label="Choose Growth">Choose Growth</button></article>
+        <article class="pkg rv" data-pkg-card="Premium"><img class="pico" src="images/p3.png" alt="" width="96" height="96">
           <h3>Premium</h3><p class="sub">Business Transformation</p>
-          <div class="price">₹ zzzz<span>/ Month</span></div>
-          <div class="freq"><b>Weekly sessions</b><span>/ Month</span></div>
-          <ul class="list"><li>Everything in Growth package</li><li>Sales and operational improvement guidance</li><li>AI adoption and automation roadmap</li><li>Team productivity guidance</li><li>Priority support and monthly strategy review</li></ul>
+          <div class="price">Custom pricing</div>
+          <div class="freq"><b>Weekly sessions</b></div>
+          <ul class="list"><li>Everything in the Growth package</li><li>Sales and operational improvement guidance</li><li>AI adoption and automation roadmap</li><li>Team productivity guidance</li><li>Priority support and monthly strategy review</li></ul>
           <div class="best"><b>Best for</b>Businesses ready for deeper change, with priority support.</div>
-          <a class="btn ghost" href="#contact">Discuss this package</a></article>
+          <button type="button" class="btn ghost" data-pkg="Premium" data-label="Choose Premium">Choose Premium</button></article>
+      </div>
+      <div class="cmp-wrap" id="pkg-compare" hidden>
+        <table class="cmp">
+          <caption class="sr-only">Compare the Starter, Growth and Premium mentorship packages</caption>
+          <thead><tr>
+            <th scope="col">What is included</th>
+            <th scope="col">Starter<small>Business Clarity</small><button type="button" class="btn ghost" data-pkg="Starter" data-label="Choose">Choose</button></th>
+            <th scope="col" class="feat">Growth<small>Business Accelerator</small><button type="button" class="btn" data-pkg="Growth" data-label="Choose">Choose</button></th>
+            <th scope="col">Premium<small>Business Transformation</small><button type="button" class="btn ghost" data-pkg="Premium" data-label="Choose">Choose</button></th>
+          </tr></thead>
+          <tbody>
+            <tr><th scope="row">Price per month</th><td><span data-price="Starter"></span></td><td class="feat"><span data-price="Growth"></span></td><td><span data-price="Premium"></span></td></tr>
+            <tr><th scope="row">Mentorship sessions</th><td>1 review meeting</td><td class="feat">2 sessions</td><td>Weekly sessions</td></tr>
+            <tr><th scope="row">Business review and gap analysis</th><td><span class="yes" aria-label="Included">✓</span></td><td class="feat"><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">Monthly action plan</th><td><span class="yes" aria-label="Included">✓</span></td><td class="feat"><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">Marketing and branding guidance</th><td>Basic</td><td class="feat">Strategy + digital presence</td><td>Strategy + digital presence</td></tr>
+            <tr><th scope="row">Customised 90-day growth roadmap</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat"><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">AI tools and automation</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat">Guidance</td><td>Adoption roadmap</td></tr>
+            <tr><th scope="row">Monthly performance review</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat"><span class="yes" aria-label="Included">✓</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">Sales and operations guidance</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat"><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">Team productivity guidance</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat"><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+            <tr><th scope="row">Priority support and strategy review</th><td><span class="no" aria-label="Not included">—</span></td><td class="feat"><span class="no" aria-label="Not included">—</span></td><td><span class="yes" aria-label="Included">✓</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pickbar" id="pickbar" hidden>
+        <span>Selected package: <b id="pickname"></b></span>
+        <span class="pick-actions"><button type="button" class="linkbtn" id="pickclear">Clear</button><a class="btn" href="#contact">Continue to enquiry →</a></span>
       </div>
     </div>
   </section>
 
-  <section style="padding-top:8px">
+  <section class="alt" id="planner">
+    <div class="wrap">
+      <div class="eyebrow">Growth Planner</div>
+      <h2>Build your <em>90-day growth plan</em> in a minute.</h2>
+      <p class="lead">Tell us about your business and what you want to improve. You get a simple 30-60-90 day plan you can start on, copy, or send to us on WhatsApp.</p>
+      <div class="planner">
+        <form class="card-form" id="plan-form" novalidate>
+          <div class="fld"><label for="pl-type">Type of business</label>
+            <select id="pl-type"><option>Startup</option><option>Retail shop</option><option>Service provider</option><option>Institute / training centre</option><option>Other small business</option></select></div>
+          <fieldset class="fld"><legend>Where is your business now?</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="pl-stage" value="start"><span>Just starting</span></label>
+              <label class="chip"><input type="radio" name="pl-stage" value="stuck" checked><span>Running but stuck</span></label>
+              <label class="chip"><input type="radio" name="pl-stage" value="scale"><span>Ready to scale</span></label>
+            </div></fieldset>
+          <fieldset class="fld"><legend>What do you want to improve? <span class="opt-tag" id="pl-count">Choose up to 3</span></legend>
+            <div class="chips" id="pl-focus">
+              <label class="chip"><input type="checkbox" value="customers"><span>Get more customers</span></label>
+              <label class="chip"><input type="checkbox" value="marketing"><span>Marketing &amp; branding</span></label>
+              <label class="chip"><input type="checkbox" value="ai"><span>AI &amp; automation</span></label>
+              <label class="chip"><input type="checkbox" value="sales"><span>Sales process</span></label>
+              <label class="chip"><input type="checkbox" value="ops"><span>Operations</span></label>
+              <label class="chip"><input type="checkbox" value="team"><span>Team productivity</span></label>
+            </div>
+            <span class="err" id="pl-err" role="alert"></span></fieldset>
+          <fieldset class="fld"><legend>Time you can give each week</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="pl-hours" value="2"><span>About 2 hours</span></label>
+              <label class="chip"><input type="radio" name="pl-hours" value="5" checked><span>About 5 hours</span></label>
+              <label class="chip"><input type="radio" name="pl-hours" value="10"><span>10+ hours</span></label>
+            </div></fieldset>
+          <button class="btn" type="submit">Create my plan</button>
+        </form>
+        <div class="plan-out" id="plan-out" aria-live="polite">
+          <div class="plan-empty"><b>Your plan will appear here.</b><p>Choose what you want to improve and click “Create my plan”.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt8">
     <div class="wrap">
       <div class="bar targets">
         <div class="bl peach"><span>Target<br>Clients</span></div>
         <div class="bi6">
-          <div class="bi"><img src="images/t1.png" alt=""><b>Startups</b></div>
-          <div class="bi"><img src="images/t2.png" alt=""><b>Small<br>Businesses</b></div>
-          <div class="bi"><img src="images/t3.png" alt=""><b>Retail<br>Shops</b></div>
-          <div class="bi"><img src="images/t4.png" alt=""><b>Service<br>Providers</b></div>
-          <div class="bi"><img src="images/t5.png" alt=""><b>Institutes</b></div>
-          <div class="bi"><img src="images/t6.png" alt=""><b>Entrepreneurs</b></div>
+          <div class="bi"><img src="images/t1.png" alt="" width="64" height="64"><b>Startups</b></div>
+          <div class="bi"><img src="images/t2.png" alt="" width="64" height="64"><b>Small<br>Businesses</b></div>
+          <div class="bi"><img src="images/t3.png" alt="" width="64" height="64"><b>Retail<br>Shops</b></div>
+          <div class="bi"><img src="images/t4.png" alt="" width="64" height="64"><b>Service<br>Providers</b></div>
+          <div class="bi"><img src="images/t5.png" alt="" width="64" height="64"><b>Institutes</b></div>
+          <div class="bi"><img src="images/t6.png" alt="" width="64" height="64"><b>Entrepreneurs</b></div>
         </div>
       </div>
       <div class="bar flow">
         <div class="bl green"><span>Our<br>Delivery Process</span></div>
         <div class="bi6">
-          <div class="bi"><img src="images/d1.png" alt=""><b>Enquiry &amp;<br>Discovery<br>Meeting</b></div>
-          <div class="bi"><img src="images/d2.png" alt=""><b>Business<br>Assessment</b></div>
-          <div class="bi"><img src="images/d3.png" alt=""><b>Gap<br>Analysis</b></div>
-          <div class="bi"><img src="images/d4.png" alt=""><b>Growth<br>Roadmap</b></div>
-          <div class="bi"><img src="images/d5.png" alt=""><b>Mentorship &amp;<br>Action Plan</b></div>
-          <div class="bi"><img src="images/d6.png" alt=""><b>Monthly<br>Review &amp;<br>Renewal</b></div>
+          <div class="bi"><img src="images/d1.png" alt="" width="64" height="64"><b>Enquiry &amp;<br>Discovery<br>Meeting</b></div>
+          <div class="bi"><img src="images/d2.png" alt="" width="64" height="64"><b>Business<br>Assessment</b></div>
+          <div class="bi"><img src="images/d3.png" alt="" width="64" height="64"><b>Gap<br>Analysis</b></div>
+          <div class="bi"><img src="images/d4.png" alt="" width="64" height="64"><b>Growth<br>Roadmap</b></div>
+          <div class="bi"><img src="images/d5.png" alt="" width="64" height="64"><b>Mentorship &amp;<br>Action Plan</b></div>
+          <div class="bi"><img src="images/d6.png" alt="" width="64" height="64"><b>Monthly<br>Review &amp;<br>Renewal</b></div>
         </div>
       </div>
       <p class="tagline"><span>//</span> Your <em>Business Growth &amp; AI</em> Mentorship Partner</p>
@@ -223,17 +335,46 @@
   </section>
 </div>
 
+<!-- FIND A MENTOR -->
+<div id="mentors">
+  <div class="phead"><div class="wrap"><div class="eyebrow">Find a mentor</div><h1>Find the right <em>mentorship track.</em></h1><p class="lead">Search by skill or tool, filter by category, and enquire in one tap.</p></div></div>
+  <section class="pt36"><div class="wrap">
+    <div class="finder-bar">
+      <label class="sr-only" for="m-search">Search mentorship tracks</label>
+      <div class="searchbox">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="m-search" type="search" placeholder="Search a skill or tool, e.g. SAP, Photoshop, Python" autocomplete="off">
+        <button type="button" id="m-clear" aria-label="Clear search" hidden>×</button>
+      </div>
+      <div class="filter-row">
+        <div class="chips" id="m-cats" role="group" aria-label="Filter by category"></div>
+      </div>
+      <p class="result-count" id="m-count" role="status" aria-live="polite"></p>
+    </div>
+    <div class="mgrid" id="m-grid"></div>
+    <div class="m-empty" id="m-empty" hidden>
+      <h3>No matching track found</h3>
+      <p>Try a different word, or clear the filters. If your skill is not listed, ask us. We may still be able to help.</p>
+      <div class="actions">
+        <button type="button" class="btn ghost" id="m-reset">Clear filters</button>
+        <a class="btn wa" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20could%20not%20find%20my%20skill%20in%20your%20mentor%20list" target="_blank" rel="noopener noreferrer">Ask on WhatsApp ↗</a>
+      </div>
+    </div>
+  </div></section>
+  <section class="band"><div class="wrap"><h2>Not sure which <em>track fits you?</em></h2><p class="lead">Tell us your goal and we will suggest the right one.</p><a class="btn" href="#contact">Talk to us</a></div></section>
+</div>
+
 <!-- PROCESS -->
 <div id="process">
   <div class="phead"><div class="wrap"><div class="eyebrow">Our process</div><h1>Simple steps, <em>steady progress.</em></h1><p class="lead">From first message to regular follow-up.</p></div></div>
-  <section style="padding-top:36px"><div class="wrap">
+  <section class="pt36"><div class="wrap">
     <ol class="timeline">
       <li class="rv"><span class="dot">1</span><div><h3>Message us</h3><p>Tell us your goal on WhatsApp. No forms needed.</p></div></li>
       <li class="rv"><span class="dot">2</span><div><h3>Discovery call</h3><p>We understand your situation and what is holding you back.</p></div></li>
       <li class="rv"><span class="dot">3</span><div><h3>Your plan</h3><p>You get specific tasks, deadlines and resources.</p></div></li>
       <li class="rv"><span class="dot">4</span><div><h3>Follow-up</h3><p>We review progress, give feedback and adjust the plan.</p></div></li>
     </ol>
-    <div class="grid2e" style="margin-top:48px">
+    <div class="grid2e mt48">
       <div class="box rv"><h3>What you bring</h3><ul class="list"><li>A goal, even a rough one</li><li>Honesty about where you are stuck</li><li>Willingness to act on the tasks</li></ul></div>
       <div class="box rv"><h3>What you get</h3><ul class="list"><li>Specific tasks with deadlines</li><li>Honest, practical feedback</li><li>Regular follow-up on progress</li></ul></div>
     </div>
@@ -242,23 +383,49 @@
 
 <!-- ABOUT -->
 <div id="about">
-  <section style="padding-top:56px"><div class="wrap grid2">
-    <div>
-      <div class="eyebrow">About us</div>
-      <h1 style="font-size:clamp(34px,5vw,52px)">Balsam Creative <em>Technology</em></h1>
-      <p class="lead"><b>Balsam Creative Technology is a one-to-one mentorship service.</b> You work directly with a mentor who reviews your real work and tells you what to do next.</p>
-      <div class="tags"><span>Students &amp; graduates</span><span>Professionals</span><span>Career changers</span><span>Business owners</span></div>
+  <div class="phead">
+    <div class="wrap">
+      <div class="eyebrow">About Balsam</div>
+      <h1>Learn. Create. Build. <em>Grow.</em></h1>
+      <p class="lead">Empowering individuals and businesses through personalised mentorship, practical learning and technology-driven guidance.</p>
     </div>
-    <div class="brandcard rv">
-      <img src="images/logo.png" alt="Balsam Creative Technology">
-      <div class="lcbg">
-        <div><b>Learn</b><span>Understand your goal and your gaps.</span></div>
-        <div><b>Create</b><span>Shape a clear plan.</span></div>
-        <div><b>Build</b><span>Put the plan into action.</span></div>
-        <div><b>Grow</b><span>Review and improve every month.</span></div>
+  </div>
+
+  <section>
+    <div class="wrap grid2">
+      <div>
+        <div class="eyebrow">Who we are</div>
+        <h2>Balsam Creative <em>Technology</em></h2>
+        <p class="lead">Balsam Creative Technology is a one-to-one mentorship service. We help students, graduates, professionals and business owners build their knowledge, skills and confidence through personal guidance.</p>
+        <p class="lead mt16">Effective learning goes beyond theory. It needs practical guidance, individual attention, steady improvement and the confidence to act. You work directly with a mentor who reviews your real work and tells you what to do next.</p>
+        <div class="tags"><span>Students &amp; graduates</span><span>Professionals</span><span>Career changers</span><span>Business owners</span></div>
+      </div>
+      <div class="brandcard rv">
+        <img src="images/logo.png" alt="Balsam Creative Technology">
+        <div class="lcbg">
+          <div><b>Learn</b><span>Understand your goal and your gaps.</span></div>
+          <div><b>Create</b><span>Shape a clear plan.</span></div>
+          <div><b>Build</b><span>Put the plan into action.</span></div>
+          <div><b>Grow</b><span>Review and improve every month.</span></div>
+        </div>
       </div>
     </div>
-  </div></section>
+  </section>
+
+  <!-- FOUNDER / MENTOR PROFILE
+       Hidden until you add a real photo and details. To show it: put your photo at images/mentor.jpg,
+       fill in the text, and delete the word  hidden  from the <section> tag. -->
+  <section id="founder" hidden>
+    <div class="wrap grid2">
+      <div class="founder-photo rv"><img src="images/mentor.jpg" alt="Your mentor" width="800" height="900" loading="lazy"></div>
+      <div>
+        <div class="eyebrow">Your mentor</div>
+        <h2>Meet <em>Your Name</em></h2>
+        <p class="lead">Write 2 or 3 honest lines about your experience, the people you have helped and why you started mentoring.</p>
+        <div class="tags"><span>__ years of experience</span><span>Your qualification</span><span>Your specialty</span></div>
+      </div>
+    </div>
+  </section>
 
   <section class="alt"><div class="wrap">
     <div class="eyebrow">Why Balsam Creative Technology</div>
@@ -271,7 +438,7 @@
     </div>
   </div></section>
 
-  <section><div class="wrap grid2e" style="align-items:start">
+  <section><div class="wrap grid2e aStart">
     <div class="box rv"><h3>Who this is for</h3>
       <ul class="list"><li>Students unsure which career to choose</li><li>Graduates preparing for their first job</li><li>Professionals planning a change</li><li>Business owners who want a clear growth plan</li></ul></div>
     <div class="box rv"><h3>What we are not</h3>
@@ -282,39 +449,69 @@
 <!-- FAQ -->
 <div id="faq">
   <div class="phead"><div class="wrap"><div class="eyebrow">FAQ</div><h1>Good to <em>know.</em></h1><p class="lead">Straight answers to the questions we hear most.</p></div></div>
-  <section style="padding-top:20px"><div class="wrap">
+  <section class="pt20"><div class="wrap">
     <div class="faq">
       <details><summary>How do I get started?</summary><p>Send us a WhatsApp message with your goal or business. We will set up a first call.</p></details>
-      <details><summary>What happens on the first call?</summary><p>We learn about your goal, answer your questions and suggest where to start. No pressure to continue.</p></details>
+      <details><summary>What happens on the first call?</summary><p>We learn about your goal, answer your questions and suggest where to start. There is no pressure to continue.</p></details>
       <details><summary>Do you mentor businesses too?</summary><p>Yes. Business Growth Mentorship is for startups, small businesses, shops, service providers, institutes and entrepreneurs.</p></details>
       <details><summary>Which business package should I choose?</summary><p>Growth suits most businesses. Starter is a clear first review and Premium is deeper support. Growth and Premium include AI guidance. We will help you choose.</p></details>
       <details><summary>Do you guarantee a job or result?</summary><p>No. We promise honest feedback, a clear plan and regular follow-up. Results depend on how the plan is carried out.</p></details>
       <details><summary>Will my information stay private?</summary><p>Yes. It is used only to guide you and is not shared.</p></details>
     </div>
-    <div style="text-align:center;margin-top:36px"><p class="lead" style="margin:0 auto 18px">Still have a question? Ask us directly.</p><a class="btn wa" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20have%20a%20question" target="_blank" rel="noopener noreferrer">Ask on WhatsApp ↗</a></div>
+    <div class="center mt36"><p class="lead mauto18">Still have a question? Ask us directly.</p><a class="btn wa" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20have%20a%20question" target="_blank" rel="noopener noreferrer">Ask on WhatsApp ↗</a></div>
   </div></section>
 </div>
 
 <!-- CONTACT -->
 <div id="contact">
-  <section style="padding-top:56px"><div class="wrap grid2">
+  <section class="pt56"><div class="wrap contact-grid">
     <div><div class="eyebrow">Get in touch</div><h1>Let’s make <em>progress together.</em></h1>
       <p class="lead">Send one message and tell us your goal.</p>
-      <div class="actions"><a class="btn wa" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20would%20like%20to%20know%20more%20about%20your%20mentorship%20programs" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a></div>
+      <div class="actions"><a class="btn wa" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20would%20like%20to%20know%20more%20about%20your%20mentorship%20programmes" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a></div>
       <p class="note">Opens WhatsApp with a ready-to-send message.</p>
-      <div class="box" style="margin-top:26px"><h3>In your first message, tell us</h3><ul class="list"><li>What you want to achieve (career or business)</li><li>Where you are right now</li><li>What is holding you back</li></ul></div></div>
-    <div class="visual rv"><img src="images/hero.jpg" alt="Growth blocks with a rising arrow"></div>
+      <div class="box mt26"><h3>In your first message, tell us</h3><ul class="list"><li>What you want to achieve (career or business)</li><li>Where you are right now</li><li>What is holding you back</li></ul></div>
+      <div class="visual rv mt26"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Mentor and mentee in conversation" loading="lazy"></div></div>
+
+    <form class="card-form enq" id="enq-form" novalidate aria-labelledby="enq-title">
+      <div class="eyebrow">Enquiry form</div>
+      <h2 id="enq-title">Tell us about your goal</h2>
+      <p class="note mb18">When you send, WhatsApp opens with your message ready. Nothing is sent to a server.</p>
+      <div class="enq-grid">
+        <div class="fld" data-f="name"><label for="q-name">Your name</label><input id="q-name" name="name" autocomplete="name" placeholder="Full name" required><span class="err" data-err="name"></span></div>
+        <div class="fld" data-f="phone"><label for="q-phone">WhatsApp number</label><input id="q-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number" required><span class="err" data-err="phone"></span></div>
+        <div class="fld" data-f="who"><label for="q-who">I am</label>
+          <select id="q-who" required><option value="">Select…</option><option value="student">A student</option><option value="grad">A graduate / job seeker</option><option value="pro">A working professional</option><option value="biz">A business owner</option></select><span class="err" data-err="who"></span></div>
+        <div class="fld" data-f="interest"><label for="q-interest">I’m interested in</label><select id="q-interest" required></select><span class="err" data-err="interest"></span></div>
+        <div class="fld" data-f="pkg" id="q-pkg-wrap" hidden><label for="q-pkg">Package</label>
+          <select id="q-pkg"><option>Not sure yet</option><option>Starter</option><option>Growth</option><option>Premium</option></select></div>
+        <div class="fld" data-f="biz" id="q-biz-wrap" hidden><label for="q-biz">Business name or type <span class="opt-tag">(optional)</span></label><input id="q-biz" maxlength="80" placeholder="e.g. Tailoring shop"></div>
+        <div class="fld full" data-f="goal"><label for="q-goal">Your goal</label>
+          <textarea id="q-goal" rows="4" maxlength="400" placeholder="What do you want to achieve?" required></textarea>
+          <div class="goal-meta"><div class="chips small" id="q-chips" aria-label="Suggested goals"></div><span class="count" id="q-count">0 / 400</span></div>
+          <span class="err" data-err="goal"></span></div>
+        <fieldset class="fld full"><legend>Best time to talk</legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="q-time" value="Morning"><span>Morning</span></label>
+            <label class="chip"><input type="radio" name="q-time" value="Afternoon"><span>Afternoon</span></label>
+            <label class="chip"><input type="radio" name="q-time" value="Evening"><span>Evening</span></label>
+            <label class="chip"><input type="radio" name="q-time" value="Any time"><span>Any time</span></label>
+          </div></fieldset>
+        <div class="full"><div class="label">Message preview</div><div class="preview" id="q-preview" aria-live="polite"></div></div>
+        <div class="full actions mt4"><button class="btn wa" type="submit">Send on WhatsApp ↗</button><button class="btn ghost" type="button" id="q-copy">Copy message</button></div>
+        <p class="note full" id="q-status" role="status"></p>
+      </div>
+    </form>
   </div></section>
 </div>
 </main>
 
 <footer><div class="wrap">
   <div class="top"><a href="#home" class="fbrand" aria-label="Balsam Creative Technology home"><img src="images/logo.png" alt="Balsam Creative Technology: Learn, Create, Build, Grow"></a>
-    <div class="links"><a href="#home">Home</a><a href="#services">Career Mentoring</a><a href="#business">Business Growth</a><a href="#process">Process</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div></div>
-  <div class="bot">© <span id="yr"></span> Balsam Creative Technology. All rights reserved.</div>
+    <div class="links"><a href="#home">Home</a><a href="#mentors">Find a Mentor</a><a href="#services">Mentorship Programmes</a><a href="#business">Business Growth</a><a href="#process">Process</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div></div>
+  <div class="bot">© <span id="yr">2026</span> Balsam Creative Technology. All rights reserved. · <a href="https://wa.me/919790128152" target="_blank" rel="noopener noreferrer">WhatsApp +91 97901 28152</a></div>
 </div></footer>
 
-<a class="wa-float" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20would%20like%20to%20know%20more%20about%20your%20mentorship%20programs" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+<a class="wa-float" href="https://wa.me/919790128152?text=Hello%20Balsam%20Creative%20Technology%2C%20I%20would%20like%20to%20know%20more%20about%20your%20mentorship%20programmes" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 <script src="js/script.js"></script>
